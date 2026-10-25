@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catalogue de camions-bennes, tracteurs, citernes, porteurs et semi-remorques.">
+  <title>Catalogue de camions — [NOM DE LA SOCIÉTÉ]</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/config.js" defer></script><script src="js/data.js" defer></script><script src="js/main.js" defer></script><script src="js/catalogue.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a><div class="rain" aria-hidden="true"></div>
+  <header class="site-header"><div class="nav-shell glass"><a class="brand" href="index.html"><span class="brand-mark"><img src="assets/images/image.png" alt=""></span><span><strong data-company>[NOM DE LA SOCIÉTÉ]</strong><small>TRUCKS AFRICA</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu"><span></span><span></span><span></span><span class="sr-only">Ouvrir le menu</span></button><nav id="main-menu" class="main-nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a class="active" href="catalogue.html">Catalogue</a><a href="a-propos.html">À propos</a><a href="contact.html">Contact</a><a class="nav-cta" href="commande.html">Demander un devis</a></nav></div></header>
+  <main id="contenu">
+    <section class="page-hero1 section1"><p class="eyebrow">Notre flotte</p><h1>Des configurations adaptées à vos opérations</h1><p>Références, caractéristiques et visuels de démonstration. Toute information doit être confirmée dans une proposition commerciale.</p></section>
+    <section class="section">
+      <div class="filters glass">
+        <div class="field"><label for="recherche">Rechercher</label><input id="recherche" type="search" placeholder="Marque, modèle, usage…"></div>
+        <div class="field"><label for="marque">Marque</label><select id="marque"><option value="">Toutes les marques</option></select></div>
+        <div class="field"><label for="categorie">Catégorie</label><select id="categorie"><option value="">Toutes les catégories</option></select></div>
+        <button id="reset-filters" class="button secondary" type="button">Réinitialiser</button>
+      </div>
+      <div class="results-line"><p id="result-count" role="status" aria-live="polite"></p><p>Données techniques illustratives</p></div>
+      <div id="catalogue-grid" class="vehicle-grid"></div>
+      <div id="empty-state" class="empty-state glass" hidden><h2>Aucun véhicule trouvé</h2><p>Modifiez vos critères ou réinitialisez les filtres.</p></div>
+      <noscript><p class="notice">JavaScript est nécessaire pour utiliser les filtres. Activez-le puis rechargez cette page.</p></noscript>
+    </section>
+  </main>
+  <footer class="site-footer glass">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark"></span><img src="assets/images/image.png" alt=""><span><small></small></span></a><p>Importation et vente de véhicules industriels en Afrique.</p></div>
+    <div><h2>Navigation</h2><a href="catalogue.html">Catalogue</a><a href="commande.html">Demande de devis</a><a href="a-propos.html">À propos</a></div>
+    <div class="icon1">
+      <h2>Coordonnées</h2>
+      <p data-address>[ADRESSE DE LA SOCIÉTÉ]</p>
+      <p data-address1>[ADRESSE DE LA SOCIÉTÉ]</p><img src="../assets/images/giphy (36).webp" alt="">
+      <p data-email>[EMAIL DE LA SOCIÉTÉ]</p><img src="../assets/images/giphy (23).webp" alt=""> 
+      <p data-hours>[HORAIRES D’OUVERTURE]</p></div>
+    <!-- BANDE DÉFILANTE PUBLICITAIRE -->
+<div class="ad-ticker-wrapper">
+  <div class="ad-ticker-track">
+    <!-- Premier groupe d'images -->
+    <div class="ad-ticker-content">
+      <a href="#"><img src="../assets/images/giphy (8).webp" alt="Publicité 1"></a>
+      <a href="#"><img src="../assets/images/giphy (11).webp" alt="Publicité 2"></a>
+      <a href="#"><img src="../assets/images/giphy (29).webp" alt="Publicité 3"></a>
+      <a href="#"><img src="../assets/images/giphy (11).webp" alt="Publicité 4"></a>
+    </div>
+    <!-- Deuxième groupe d'images identique (nécessaire pour un défilement infini et fluide) -->
+    <div class="ad-ticker-content" aria-hidden="true">
+      <a href="#"><img src="../assets/images/giphy (8).webp" alt="Publicité 1"></a>
+      <a href="#"><img src="../assets/images/giphy (11).webp" alt="Publicité 2"></a>
+      <a href="#"><img src="../assets/images/giphy (29).webp" alt="Publicité 3"></a>
+      <a href="#"><img src="../assets/images/giphy (11).webp" alt="Publicité 4"></a>
+    </div>
+  </div>
+</div>
+
+    <p class="footer-bottom">© <span data-year></span> <span data-company>[NOM DE LA SOCIÉTÉ]</span>. Tous droits réservés | All-rights reserve.</p>
+
+  </footer>
+
+  </body>
+</html>
