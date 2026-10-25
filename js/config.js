@@ -3,7 +3,7 @@
 var CONFIG = {
   companyName: "GROUP 10 TRUCKING",
   whatsapp: "237659011729",
-  email: "info@trucksafrica.com",
+  email: "bellombeleandre@gmail.com",
   address: "www.trucksafrica.com",
   address1: "client.trucksafrica.com",
   city: "DOUALA, CAMEROUN",
